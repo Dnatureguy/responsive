@@ -1,0 +1,91 @@
+body{
+    background-color: bisque;
+
+}
+
+.baf{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+ .baf .baf1{
+     position: relative;
+    
+}
+ .baf #baf2{
+    position: relative;
+ }
+.baf .icon1{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+.gat{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+    left: 350px;
+    bottom: 221px;
+}
+.gat .gat1{
+    position: relative;
+}
+.gat #gat2{
+   position: relative;
+
+}
+.gat .icon2{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+.haf{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+    left: 700px;
+    bottom: 442px;
+}
+.haf .haf1{
+    position: relative;
+}
+    
+.haf #haf2{
+   position: relative;
+
+}
+.haf .icon3{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 600px){
+    .gat.responsive{
+        position: relative;
+    }
+    .haf.responsive{
+        position: relative;
+    }
+    .gat.responsive{
+        background-color: white;
+        height: 200px;
+        width: 300px;
+        border-radius: 15px;
+    }
+    .haf.responsive{
+        background-color: white;
+        height: 200px;
+        width: 300px;
+        border-radius: 15px;
+    }
+} 
+
+/* End Media query for mobile devices */
